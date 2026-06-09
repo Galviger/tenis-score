@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tenis – výsledky (prototyp)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <h1>Tenis – výsledky</h1>
+      <div id="me" class="me"></div>
+      <div id="adminTabs" class="adminTabs hidden"></div>
+      <button id="releaseDisplay" class="btn ghost">Uvolnit DISPLAY</button>
+      <button id="logout" class="btn ghost">Odhlásit</button>
+    </header>
+
+    <section id="loginView" class="card">
+      <h2>Přihlášení</h2>
+      <p>Zadej kód zařízení:</p>
+      <div class="row">
+        <select id="code">
+            <option value="" selected disabled>Vyber režim…</option>
+            <option value="A">A - Admin</option>
+            <option value="D">D - Display (jen zobrazení)</option>
+            <option value="K1">K1 - Kurt 1</option>
+            <option value="K2">K2 - Kurt 2</option>
+            <option value="K3">K3 - Kurt 3</option>
+        </select>
+        <button id="login" class="btn">Přihlásit</button>
+        </div>
+        <p class="hint">
+        Vyber režim. Tablety pro kurty zapisují skóre, display jen zobrazuje, admin řídí.
+        </p>
+      <div id="loginError" class="error"></div>
+    </section>
+
+    <section id="appView" class="grid hidden">
+      <!-- vyplní JS -->
+    </section>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

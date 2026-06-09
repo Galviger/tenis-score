@@ -1,0 +1,27 @@
+{
+  "name": "tenis-scoreboard-prototype",
+  "version": "1.0.0",
+  "bin": "server.js",
+  "private": true,
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build:exe": "pkg . --targets node18-win-x64 --output tenis-scoreboard.exe"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*",
+      "data.json"
+    ]
+  }
+}

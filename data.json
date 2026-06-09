@@ -1,0 +1,70 @@
+{
+  "deviceBindings": {
+    "court1": "594b38ca-df14-4e64-b01d-4a0f538e790e",
+    "court2": "b88097bd-a0ca-4388-ac52-9e4f5361bdd7",
+    "court3": "84babc2f-3cc5-4571-be9f-f2883f4b0e62",
+    "display": "b88097bd-a0ca-4388-ac52-9e4f5361bdd7",
+    "admin": null
+  },
+  "courts": [
+    {
+      "id": 1,
+      "teamA": "",
+      "teamB": "",
+      "category": "",
+      "status": "čeká",
+      "matchType": "singles",
+      "matchNote": "",
+      "queue": [],
+      "s1a": 3,
+      "s1b": 0,
+      "s2a": 1,
+      "s2b": 0,
+      "s3a": 0,
+      "s3b": 0,
+      "note": "",
+      "updatedAt": 1778445513406
+    },
+    {
+      "id": 2,
+      "teamA": "",
+      "teamB": "",
+      "category": "",
+      "status": "čeká",
+      "matchType": "singles",
+      "matchNote": "",
+      "queue": [],
+      "s1a": 1,
+      "s1b": 0,
+      "s2a": 0,
+      "s2b": 0,
+      "s3a": 0,
+      "s3b": 0,
+      "note": "",
+      "updatedAt": 1778445498400,
+      "battery": {
+        "level": 65,
+        "charging": true,
+        "updatedAt": 1778445498400
+      }
+    },
+    {
+      "id": 3,
+      "teamA": "",
+      "teamB": "",
+      "category": "",
+      "status": "čeká",
+      "matchType": "singles",
+      "matchNote": "",
+      "queue": [],
+      "s1a": 1,
+      "s1b": 0,
+      "s2a": 2,
+      "s2b": 0,
+      "s3a": 0,
+      "s3b": 0,
+      "note": "",
+      "updatedAt": 1778445617146
+    }
+  ]
+}
