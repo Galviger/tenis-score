@@ -60,6 +60,7 @@ http://localhost:3000
 ## Notes
 
 Add your own password in the "server.js" script on the line 335.
+Add your own TOKEN and chatID for your Telegram bot in the "server.js" script on lines 180 and 181 respectively.
 
 This project was developed for local tennis tournaments and is intended to run on a local network using tablets, phones, or Raspberry Pi devices.
 
