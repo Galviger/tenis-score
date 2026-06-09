@@ -177,8 +177,8 @@ function getLocalIPv4() {
 }
 
 async function telegramNotify(text) {
-  const token = "8644049892:AAFAS2-AC1O4BFofftRBE9IVcGnJAiYtZuw";
-  const chatId = "8223002871";
+  const token = ""; // INPUT YOUR OWN TOKEN!
+  const chatId = ""; // INPUT YOUR OWN CHAT ID!
   if (!token || !chatId) return;
 
   const url = `https://api.telegram.org/bot${token}/sendMessage`;
