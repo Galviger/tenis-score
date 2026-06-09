@@ -332,7 +332,7 @@ app.post("/api/login", (req, res) => {
 
   // ✅ Admin login pouze přes heslo (bez device bindingu)
   if (entry.role === "admin") {
-    const expected = "Tenis"; // nebo z env
+    const expected = ""; // ADD YOUR OWN PASSWORD!!!
     if (String(password || "") !== expected) {
       return res.status(401).json({ error: "Bad admin password" });
     }
